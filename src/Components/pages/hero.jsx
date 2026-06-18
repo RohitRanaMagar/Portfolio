@@ -18,8 +18,8 @@ function Hero(){
       </p>
     <div className="hero_action">
       <div className="CV">
-        <button>My Resume</button>
-        <button><a href="https://www.facebook.com/rohit.rana.magar.717199/" target="_blank">Connect with me</a></button>
+        <a href="/Rohit_Rana_Magar_CV.pdf" download="Rohit_Rana_Magar_CV.pdf" className="btn-primary">My Resume</a>
+        <a href="https://www.facebook.com/rohit.rana.magar.717199/" target="_blank" className="btn-secondary">Connect with me</a>
       </div>
       <div className="hero_social">
         <a href="https://github.com" target="_blank"><FaGithub /></a>

@@ -73,24 +73,26 @@
     align-items: center;
 }
 
-.CV button:first-child {
-    padding: 14px 36px;
-    border-radius: 50px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to right, #2563eb, #06b6d4);
-    color: #fff;
-    transition: transform 0.3s, box-shadow 0.3s;
+.btn-primary {
+  padding: 14px 36px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to right, #2563eb, #06b6d4);
+  color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.CV button:first-child:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
 }
 
-.CV button:last-child {
+.btn-secondary {
     padding: 13px 36px;
     border-radius: 50px;
     font-size: 1rem;
@@ -100,14 +102,11 @@
     color: #fff;
     border: 2px solid rgba(255, 255, 255, 0.4);
     transition: 0.3s;
-}
-
-.CV button:last-child a {
     text-decoration: none;
-    color: inherit;
+    display: inline-block;
 }
 
-.CV button:last-child:hover {
+.btn-secondary:hover {
     background: linear-gradient(to right, #2563eb, #06b6d4);
     border-color: transparent;
     transform: scale(1.05);
@@ -202,21 +201,15 @@
         transform: scale(1.05);
         box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
     }
-    .CV button:last-child:hover {
+    .btn-secondary:hover {
         background: transparent;
         border-color: rgba(255, 255, 255, 0.4);
         transform: none;
     }
-    .CV button:last-child:active {
+    .btn-secondary:active {
         background: linear-gradient(to right, #2563eb, #06b6d4);
         border-color: transparent;
         transform: scale(1.05);
-    }
-    .CV button:last-child a:hover {
-        color: inherit;
-    }
-    .CV button:last-child a:active {
-        color: inherit;
     }
     .hero_social a:hover {
         border-color: rgba(255, 255, 255, 0.15);

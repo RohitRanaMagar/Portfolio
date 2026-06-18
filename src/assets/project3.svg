@@ -1,0 +1,56 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#0d1117"/>
+  <!-- sidebar -->
+  <rect x="0" y="0" width="130" height="400" fill="#161b22"/>
+  <rect x="15" y="20" width="100" height="16" rx="3" fill="#21262d"/>
+  <rect x="15" y="60" width="20" height="10" rx="2" fill="#1f6feb"/>
+  <rect x="42" y="62" width="70" height="8" rx="2" fill="#8b949e"/>
+  <rect x="15" y="82" width="20" height="10" rx="2" fill="#21262d"/>
+  <rect x="42" y="84" width="70" height="8" rx="2" fill="#8b949e"/>
+  <rect x="15" y="104" width="20" height="10" rx="2" fill="#21262d"/>
+  <rect x="42" y="106" width="70" height="8" rx="2" fill="#8b949e"/>
+  <rect x="15" y="126" width="20" height="10" rx="2" fill="#21262d"/>
+  <rect x="42" y="128" width="70" height="8" rx="2" fill="#8b949e"/>
+  <rect x="15" y="148" width="20" height="10" rx="2" fill="#21262d"/>
+  <rect x="42" y="150" width="70" height="8" rx="2" fill="#8b949e"/>
+  <!-- topbar -->
+  <rect x="130" y="0" width="470" height="45" fill="#161b22"/>
+  <rect x="150" y="14" width="160" height="18" rx="4" fill="#21262d"/>
+  <circle cx="560" cy="22" r="14" fill="#21262d"/>
+  <circle cx="530" cy="22" r="10" fill="#21262d"/>
+  <!-- stat cards -->
+  <rect x="145" y="60" width="100" height="65" rx="8" fill="#161b22" stroke="#21262d" stroke-width="0.5"/>
+  <text x="155" y="80" font-family="Arial" font-size="10" fill="#8b949e">Total Users</text>
+  <text x="155" y="105" font-family="Arial" font-size="20" fill="#1f6feb" font-weight="bold">12,480</text>
+  <rect x="258" y="60" width="100" height="65" rx="8" fill="#161b22" stroke="#21262d" stroke-width="0.5"/>
+  <text x="268" y="80" font-family="Arial" font-size="10" fill="#8b949e">Revenue</text>
+  <text x="268" y="105" font-family="Arial" font-size="20" fill="#3fb950" font-weight="bold">$48.2k</text>
+  <rect x="371" y="60" width="100" height="65" rx="8" fill="#161b22" stroke="#21262d" stroke-width="0.5"/>
+  <text x="381" y="80" font-family="Arial" font-size="10" fill="#8b949e">Orders</text>
+  <text x="381" y="105" font-family="Arial" font-size="20" fill="#e3b341" font-weight="bold">3,291</text>
+  <rect x="484" y="60" width="100" height="65" rx="8" fill="#161b22" stroke="#21262d" stroke-width="0.5"/>
+  <text x="494" y="80" font-family="Arial" font-size="10" fill="#8b949e">Growth</text>
+  <text x="494" y="105" font-family="Arial" font-size="20" fill="#f85149" font-weight="bold">+24%</text>
+  <!-- chart -->
+  <rect x="145" y="140" width="270" height="160" rx="8" fill="#161b22" stroke="#21262d" stroke-width="0.5"/>
+  <text x="160" y="162" font-family="Arial" font-size="11" fill="#8b949e">Monthly Revenue</text>
+  <polyline points="160,280 195,255 230,265 265,230 300,240 335,200 370,215" fill="none" stroke="#1f6feb" stroke-width="2"/>
+  <polyline points="160,280 195,270 230,275 265,260 300,265 335,245 370,255" fill="none" stroke="#3fb950" stroke-width="2" stroke-dasharray="4,2"/>
+  <!-- table -->
+  <rect x="428" y="140" width="156" height="160" rx="8" fill="#161b22" stroke="#21262d" stroke-width="0.5"/>
+  <text x="444" y="162" font-family="Arial" font-size="11" fill="#8b949e">Recent Orders</text>
+  <rect x="436" y="172" width="132" height="1" fill="#21262d"/>
+  <rect x="436" y="178" width="80" height="8" rx="2" fill="#21262d"/>
+  <rect x="520" y="178" width="40" height="8" rx="2" fill="#1f6feb" opacity="0.4"/>
+  <rect x="436" y="196" width="80" height="8" rx="2" fill="#21262d"/>
+  <rect x="520" y="196" width="40" height="8" rx="2" fill="#3fb950" opacity="0.4"/>
+  <rect x="436" y="214" width="80" height="8" rx="2" fill="#21262d"/>
+  <rect x="520" y="214" width="40" height="8" rx="2" fill="#e3b341" opacity="0.4"/>
+  <rect x="436" y="232" width="80" height="8" rx="2" fill="#21262d"/>
+  <rect x="520" y="232" width="40" height="8" rx="2" fill="#f85149" opacity="0.4"/>
+  <rect x="436" y="250" width="80" height="8" rx="2" fill="#21262d"/>
+  <rect x="520" y="250" width="40" height="8" rx="2" fill="#1f6feb" opacity="0.4"/>
+  <!-- label -->
+  <rect x="130" y="370" width="470" height="30" fill="#161b22"/>
+  <text x="360" y="390" text-anchor="middle" font-family="Arial" font-size="13" fill="#3fb950" font-weight="bold">Admin Dashboard — React + Tailwind</text>
+</svg>

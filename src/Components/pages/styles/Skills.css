@@ -1,0 +1,106 @@
+.services {
+    padding: 80px 40px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.services h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, #3b82f6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.services > hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #7c3aed, transparent);
+    margin: 0 0 40px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.skill {
+    padding: 36px 28px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    text-align: left;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.skill:hover {
+    background: linear-gradient(135deg, #2d1b4e, #4a1942);
+    border-color: #a855f7;
+    transform: translateY(-5px);
+}
+
+.skill_number {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #64748b;
+    letter-spacing: 0.1em;
+}
+
+.skill h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: linear-gradient(to right, #a855f7, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.skill p {
+    font-size: 0.95rem;
+    color: #94a3b8;
+    line-height: 1.8;
+    flex: 1;
+}
+
+.skill a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.skill a:hover {
+    color: #a855f7;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .services {
+        padding: 60px 30px;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .services {
+        padding: 60px 20px;
+    }
+    .services h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    .grid {
+        grid-template-columns: 1fr; 
+    .skill {
+        padding: 24px 20px;
+    }
+}
+}

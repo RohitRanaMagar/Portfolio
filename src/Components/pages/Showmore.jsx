@@ -1,10 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Mywork from "../../assets/mywork";
 import './styles/Showmore.css'
 
 function Showmore(){
+    const navigate = useNavigate();
+
     return (
         <div id="showmore" className="showmore-page">
+            <button className="showmore-back" onClick={() => navigate("/")}>← Back to Home</button>
             <div className="showmore-header">
                 <h1>All Projects</h1>
                 <p>A showcase of my work and creations</p>

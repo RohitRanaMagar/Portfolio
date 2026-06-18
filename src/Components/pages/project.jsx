@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import './styles/project.css'
 import Mywork from "../../assets/mywork";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 
 function Project(){
+    const navigate = useNavigate();
+
     return(
         <div id="projects" className="projects">
             <div className="works">
@@ -16,7 +19,7 @@ function Project(){
                 })}
             </div>
             <div className="showmore">
-                <p>Show More<FaArrowRightLong /></p>
+                <p onClick={() => navigate("/showmore")}>Show More<FaArrowRightLong /></p>
             </div>
         </div>
 

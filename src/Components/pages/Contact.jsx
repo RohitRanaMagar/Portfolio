@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './styles/Contact.css'
 function Contact(){
+  const [result, setResult] = useState("");
+
   const onSubmit = async (event) => {
     event.preventDefault();
+    setResult("Sending...");
     const formData = new FormData(event.target);
 
     formData.append("access_key", "ef5f7256-5ae6-43e3-b755-a815b75ff793");
@@ -20,7 +23,10 @@ function Contact(){
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      setResult("Message sent successfully!");
+      event.target.reset();
+    } else {
+      setResult("Something went wrong. Please try again.");
     }
   };
 
@@ -53,16 +59,17 @@ function Contact(){
         
         </div>
 
-           <div onSubmit={onsubmit} className="contact-right">
-                <label htmlFor="">Your name</label>
-                <input type="text" placeholder="Enter your name" name="name"/>
-                <label htmlfor="">Emali</label>
-                <input type="text" placeholder="Enter your email" name="email"/>
-                <label htmlfor="">Message</label>
-                <textarea name="message" rows={8} placeholder="Enter your message"></textarea>
+           <form onSubmit={onSubmit} className="contact-right">
+                <label htmlFor="name">Your name</label>
+                <input type="text" placeholder="Enter your name" name="name" id="name"/>
+                <label htmlFor="email">Email</label>
+                <input type="email" placeholder="Enter your email" name="email" id="email"/>
+                <label htmlFor="message">Message</label>
+                <textarea name="message" id="message" rows={8} placeholder="Enter your message"></textarea>
                 <button type="submit" className="submit">Submit</button>
+                {result && <p className="result-message">{result}</p>}
 
-            </div>
+            </form>
             <div className="contact_bottom">
                 <p>© 2026 Rohit Rana Magar. All rights reserved.</p>
                 <p>Designed & Built by Rohit Rana Magar 🇳🇵</p>

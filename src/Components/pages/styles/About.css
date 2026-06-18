@@ -201,3 +201,18 @@
         font-size: 13px;
     }
 }
+
+@media (hover: none) {
+    .about-skill:hover {
+        transform: none;
+    }
+    .about-skill:active {
+        transform: scale(1.05);
+    }
+    .stat:hover {
+        transform: none;
+    }
+    .stat:active {
+        transform: scale(1.12);
+    }
+}

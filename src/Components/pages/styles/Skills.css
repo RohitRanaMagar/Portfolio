@@ -104,3 +104,22 @@
     }
 }
 }
+
+@media (hover: none) {
+    .skill:hover {
+        background: none;
+        border-color: rgba(255, 255, 255, 0.12);
+        transform: none;
+    }
+    .skill:active {
+        background: linear-gradient(135deg, #2d1b4e, #4a1942);
+        border-color: #a855f7;
+        transform: translateY(-5px);
+    }
+    .skill a:hover {
+        color: #fff;
+    }
+    .skill a:active {
+        color: #a855f7;
+    }
+}

@@ -143,3 +143,20 @@
     font-size: 0.85rem;
     color: #475569;
 }
+
+@media (hover: none) {
+    .contact_social a:hover {
+        color: #94a3b8;
+    }
+    .contact_social a:active {
+        color: #3b82f6;
+    }
+    .submit:hover {
+        transform: none;
+        opacity: 1;
+    }
+    .submit:active {
+        transform: scale(1.02);
+        opacity: 0.9;
+    }
+}

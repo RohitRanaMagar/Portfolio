@@ -23,8 +23,8 @@ function Hero(){
       </div>
       <div className="hero_social">
         <a href="https://github.com" target="_blank"><FaGithub /></a>
-        <a href="https://linkedin.com" target="_blank"><FaLinkedin /></a>
-        <a href="https://twitter.com" target="_blank"><FaTwitter /></a>
+        <a href="" target="_blank"><FaLinkedin /></a>
+        <a href="" target="_blank"><FaTwitter /></a>
        </div>
     </div>
     </div>
@@ -34,4 +34,4 @@ function Hero(){
 
     )
 }
-export default Hero
+export default Hero;

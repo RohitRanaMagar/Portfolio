@@ -89,3 +89,28 @@
         height: 200px; 
     }
 }
+
+@media (hover: none) {
+    .work-data img:hover {
+        transform: none;
+        box-shadow: none;
+        filter: brightness(0.9);
+        border-color: rgba(255, 255, 255, 0.06);
+    }
+    .work-data img:active {
+        transform: translateY(-6px) scale(1.02);
+        box-shadow: 0 12px 40px rgba(124, 58, 237, 0.4);
+        filter: brightness(1);
+        border-color: #7c3aed;
+    }
+    .showmore p:hover {
+        gap: 10px;
+        color: #a78bfa;
+        background: transparent;
+    }
+    .showmore p:active {
+        gap: 18px;
+        color: #fff;
+        background: rgba(124, 58, 237, 0.2);
+    }
+}

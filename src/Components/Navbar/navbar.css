@@ -149,3 +149,50 @@
         border-left-color: #3b82f6;
     }
 }
+
+@media (hover: none) {
+    .logo h1:hover {
+        transform: none;
+    }
+    .logo h1:active {
+        transform: scale(1.1);
+    }
+    .nav-menu li:hover {
+        color: #cbd5e1;
+    }
+    .nav-menu li:active {
+        color: #fff;
+    }
+    .nav-menu li:hover::after {
+        width: 0%;
+    }
+    .nav-menu li:active::after {
+        width: 100%;
+    }
+    .nav-menu li:hover a {
+        color: #cbd5e1;
+    }
+    .nav-menu li:active a {
+        color: #fff;
+    }
+    .Connectwithme:hover {
+        background: transparent;
+        border-color: rgba(255, 255, 255, 0.4);
+        transform: none;
+    }
+    .Connectwithme:active {
+        background: linear-gradient(to right, #2563eb, #06b6d4);
+        border-color: transparent;
+        transform: scale(1.05);
+    }
+    .nav-menu li a:hover {
+        color: #cbd5e1;
+        background: none;
+        border-left-color: transparent;
+    }
+    .nav-menu li a:active {
+        color: #fff;
+        background: rgba(255,255,255,0.05);
+        border-left-color: #3b82f6;
+    }
+}

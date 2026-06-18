@@ -8,10 +8,32 @@ html {
 }
 
 body {
-  height: 100vh;
-  background: #161616;
+  min-height: 100vh;
   color: white;
-  padding: 20px ;  
-  background-color: #0a0a0f;
+  background: #0a0a0f;
+}
 
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: linear-gradient(135deg, #0a0a0f 0%, #0f0f1a 25%, #111128 50%, #0f0f1a 75%, #0a0a0f 100%);
+  background-size: 400% 400%;
+  animation: bgShift 20s ease infinite;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
+@keyframes bgShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }

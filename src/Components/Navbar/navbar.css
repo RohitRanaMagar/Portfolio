@@ -74,6 +74,11 @@
     transition: 0.3s;
 }
 
+.Connectwithme a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .Connectwithme:hover {
     background: linear-gradient(to right, #2563eb, #06b6d4);
     border-color: transparent;
@@ -118,10 +123,10 @@
         z-index: 999;
     }
 
-    /* .open class makes it visible */
-    .nav-menu.open { right: 0; }
+    .nav-menu.open { 
+        right: 0; 
+    }
 
-    /* show close icon inside menu */
     .nav-close {
         display: block;
         align-self: flex-end;
@@ -174,6 +179,12 @@
     }
     .nav-menu li:active a {
         color: #fff;
+    }
+    .Connectwithme a:hover {
+        color: inherit;
+    }
+    .Connectwithme a:active {
+        color: inherit;
     }
     .Connectwithme:hover {
         background: transparent;

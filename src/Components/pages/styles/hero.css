@@ -98,13 +98,18 @@
     cursor: pointer;
     background: transparent;
     color: #fff;
-    border: 2px solid #3b82f6;
-    transition: transform 0.3s, background 0.3s, color 0.3s;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: 0.3s;
+}
+
+.CV button:last-child a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .CV button:last-child:hover {
-    background: #3b82f6;
-    color: #fff;
+    background: linear-gradient(to right, #2563eb, #06b6d4);
+    border-color: transparent;
     transform: scale(1.05);
 }
 .hero_social {
@@ -199,13 +204,19 @@
     }
     .CV button:last-child:hover {
         background: transparent;
-        color: #fff;
+        border-color: rgba(255, 255, 255, 0.4);
         transform: none;
     }
     .CV button:last-child:active {
-        background: #3b82f6;
-        color: #fff;
+        background: linear-gradient(to right, #2563eb, #06b6d4);
+        border-color: transparent;
         transform: scale(1.05);
+    }
+    .CV button:last-child a:hover {
+        color: inherit;
+    }
+    .CV button:last-child a:active {
+        color: inherit;
     }
     .hero_social a:hover {
         border-color: rgba(255, 255, 255, 0.15);

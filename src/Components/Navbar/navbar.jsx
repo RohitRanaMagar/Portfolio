@@ -28,7 +28,7 @@ function Navbar(){
                 <li><a href="#contact"  onClick={() => setMenuOpen(false)}>Contact</a></li>
             </ul>
             <div className="Connectwithme">
-                Connect with me
+                <a href="https://www.facebook.com/rohit.rana.magar.717199/" target="_blank">Connect With Me</a>
             </div>
         </header>
     )

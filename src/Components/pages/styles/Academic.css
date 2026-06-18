@@ -17,12 +17,20 @@
     text-transform: uppercase;
     display: block;
     margin-bottom: 8px;
+    background: linear-gradient(to right, #3b82f6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .academic-title {
     font-size: 2.4rem;
     font-weight: 700;
     color: #fff;
+    background: linear-gradient(to right, #3b82f6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .academic-timeline {
@@ -85,7 +93,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #3b82f6;
+    background: linear-gradient(135deg, #3b82f6, #06b6d4);
 }
 
 .academic-content {
@@ -111,10 +119,13 @@
 }
 
 .academic-school {
-    color: #3b82f6;
     font-weight: 500;
     font-size: 0.9rem;
     margin-bottom: 6px;
+    background: linear-gradient(to right, #2563eb, #06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .academic-meta {

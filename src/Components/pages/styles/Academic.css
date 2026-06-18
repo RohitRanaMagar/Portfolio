@@ -6,6 +6,7 @@
 
 .academic-header {
     margin-bottom: 48px;
+    text-align: center;
 }
 
 .academic-label {
@@ -14,13 +15,14 @@
     font-size: 0.85rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
 }
 
 .academic-title {
     font-size: 2.4rem;
     font-weight: 700;
     color: #fff;
-    margin-top: 8px;
 }
 
 .academic-timeline {
@@ -156,6 +158,16 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .academic-section {
+        padding: 60px 40px;
+    }
+
+    .academic-title {
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .academic-section {
         padding: 60px 24px;
@@ -167,6 +179,37 @@
 
     .academic-content {
         padding: 16px 20px;
+    }
+
+    .academic-degree {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .academic-section {
+        padding: 40px 16px;
+    }
+
+    .academic-title {
+        font-size: 1.5rem;
+    }
+
+    .academic-content {
+        padding: 14px 16px;
+    }
+
+    .academic-degree {
+        font-size: 0.95rem;
+    }
+
+    .academic-school {
+        font-size: 0.85rem;
+    }
+
+    .academic-meta {
+        font-size: 0.8rem;
+        flex-wrap: wrap;
     }
 }
 
